@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.Brand{
+    font-size: 175%;
+    font-style: normal ;
+    color: rgb(1, 171, 250);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+.nav_cont_main{
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  font-family: 'Kaushan Script', cursive;
+}
+
+
+.nav_cont_main:hover{
+  color: rgb(255, 0, 149);
+}
+
+.nav_cnto{
+  /* background-image:  url("https://images.wallpaperscraft.ru/image/zvezdy_blesk_kosmos_135257_1680x1050.jpg"); */
+ 
+ font-size:x-large;
+  /* background-color: rgb(241, 83, 188);   */
+}
+
+#erth{
+  color: rgb(0, 221, 0);
+}
+
+
+.bodmain{
+  background-image: url("https://www.pxwall.com/wp-content/uploads/2019/04/4K-Ultra-HD-Tablet-Wallpaper.jpg");
+
+  text-align: center;
+
+  
+  background-size:cover;
+  min-height:100vh;
+  background-repeat: no-repeat;
+}
+
+.count{
+  height: 15%;
+  width: 22.5%;
+
+  margin: 30px;
+
+  border: 7px solid rgb(255, 5, 80);
+  border-style: groove;
+  border-radius: 15%;
+}
+
+@media (max-width:1300px) and (min-width:1100px)
+{
+  .count{
+    height: 18%;
+    width: 27%;
+    margin: 45px;
+    border: 5px solid rgb(255, 5, 80);
+  }
+}
+
+@media (max-width:1100px) and (min-width:700px)
+{
+  .count{
+    height: 18%;
+    width: 27%;
+    margin: 35px;
+    border: 5px solid rgb(255, 5, 80);
+  }
+}
+
+@media (max-width:700px) and (min-width:600px)
+{
+  .count{
+    height: 25%;
+    width: 37.5%;
+    margin: 22px;
+    border: 3px solid rgb(255, 5, 80);
+  }
+}
+
+@media (max-width:600px) and (min-width:500px)
+{
+  .count{
+    height: 25%;
+    width: 37.5%;
+    margin: 18px;
+    border: 3px solid rgb(255, 5, 80);
+  }
+}
+
+@media (max-width:500px)
+{
+  .count{
+    height: 25%;
+    width: 37.5%;
+    margin: 15px;
+    border: 2px solid rgb(255, 5, 80);
+  }
+}

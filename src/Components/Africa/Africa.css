@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.Brand{
+    font-size: 175%;
+    font-style: normal ;
+    color: rgb(8, 118, 182);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+.nav_cont_afr{
+  color: rgb(0, 0, 0);
+  font-family: 'Kaushan Script', cursive;
+  font-size: x-large;
+  /* font-style: oblique; */
+  font-weight: bold; 
+}
+
+.nav_continents{
+  /* background-image:  url("https://images.wallpaperscraft.ru/image/zvezdy_blesk_kosmos_135257_1680x1050.jpg"); */
+  background-color: rgb(255, 58, 133);
+ 
+ font-size:x-large;
+ /* font-style: oblique; */
+ /* background-color: rgb(241, 83, 115);  */
+ 
+ position:sticky;
+ top: 0%;
+ z-index: 1;
+}
+
+.nav_cont_afr:hover{
+  color: white;
+}
+
+#erth{
+  color: rgb(2, 201, 2);
+}
+
+.FurtherLink{
+  font-family: 'Satisfy', cursive;
+  font-size: x-large;
+  color: rgb(44, 248, 255);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.FurtherLink:hover{
+  font-family: 'Satisfy', cursive;
+  color: rgb(247, 52, 52);
+  text-decoration: none;
+  font-weight: 1900;
+}
+
+.Further{
+  font-size: x-large;
+  font-family: 'Anton', sans-serif;
+  color: rgb(253, 62, 212);
+}
+
+.heading_cont{
+  font-size: 55px;
+  font-family: 'Lobster', cursive;
+  color: rgb(255, 210, 11);
+}
+
+.bodyAfricapage{
+  background-image: url("https://images5.alphacoders.com/765/765656.jpg");
+  background-size: 100% 100%;
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  background-size:cover;
+  min-height:100vh;
+}  
+
+/* @media (max-width:1000px)
+{
+  .FurtherLink{
+    font-family: 'Satisfy', cursive;
+    color: rgb(248, 2, 2);
+    text-decoration: none;
+    font-weight: bolder;
+  }
+} */
+
+.cont_map_img{
+  width: 30%;
+}
+
+.content_cont{
+  font-family: 'Acme', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: justify;
+  color: rgb(247, 245, 246);
+}
+
+@media (max-width:1200px) and (min-width:700px)
+{
+  .cont_map_img{
+    width: 45%;
+  }
+}
+
+@media (max-width:700px)
+{
+  .cont_map_img{
+    width: 60%;
+  }
+}

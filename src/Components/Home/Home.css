@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+.bod_home{
+    /* background-image:  url("https://images.wallpaperscraft.ru/image/zvezdy_blesk_kosmos_135257_1680x1050.jpg"); */
+  
+     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37f002aa-032d-480b-9aa7-474adef47ed6/daqohse-f79cb156-0096-4748-9f7e-39b15cf2e86e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3ZjAwMmFhLTAzMmQtNDgwYi05YWE3LTQ3NGFkZWY0N2VkNlwvZGFxb2hzZS1mNzljYjE1Ni0wMDk2LTQ3NDgtOWY3ZS0zOWIxNWNmMmU4NmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J-x32M2EVAjG7wBPe_hvxGgyKH1dUGhBaoYqYjhUXW4");
+
+     /* background-color: aqua; */
+
+     background-attachment: fixed;
+   
+    background-size:cover;
+    min-height:100vh;
+    background-repeat: no-repeat;
+  }
+
+  
+.EARTH{
+    text-align: right;
+  }
+  
+.EARTH2{
+    width: 50%;
+  }
+
+.EARTH2:hover{
+      width: 52%;
+  }
+  
+  #erth{
+    color: rgb(6, 231, 6);
+  }
+
+  .nav_conta_h{
+    color: rgb(255, 252, 251);
+    /* font-weight: bold; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+  }
+
+  .nav_conta_h:hover{
+    color: rgb(255, 0, 149);
+  }
+
+  .E2{
+    width: 30%;
+    height: 30%;
+  } 
+  
+  .Planet{
+    font-size: 45px;
+    font-style: normal ;
+    color: rgb(4, 157, 245);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  @media (max-width:700px) and (min-width:410px)
+  {
+     .Planet{
+      font-size: 40px;
+      font-style: normal ; 
+      color: rgb(9, 155, 240);
+      font-weight: bold;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+  } 
+
+  @media (max-width:410px) and (min-width:359px)
+  {
+     .Planet{
+      font-size: 36px;
+      font-style: normal ; 
+      color: rgb(9, 155, 240);
+      font-weight: bold;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+  } 
+
+  @media (max-width:359px) and (min-width:310px)
+  {
+     .Planet{
+      font-size: 30px;
+      font-style: normal ; 
+      color: rgb(9, 155, 240);
+      font-weight: bold;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+  } 
+
+  @media (max-width:310px) and (min-width:250px)
+  {
+     .Planet{
+      font-size: 25px;
+      font-style: normal ; 
+      color: rgb(9, 155, 240);
+      font-weight: bold;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+  } 
+
+  @media (max-width:290px) 
+  {
+     .Planet{
+      font-size: 23px;
+      font-style: normal ; 
+      color: rgb(9, 155, 240);
+      font-weight: bold;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } 
+  } 
+  
+  @media (max-width:300px)
+  {
+    .EARTH{
+      text-align: center;
+    }
+    
+    .EARTH2{
+      width: 70%;
+    }
+  } 
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width:1100px) and (min-width:300px)
+{
+  .EARTH{
+    text-align: center;
+  }
+  
+  .EARTH2{
+    width: 70%;
+  }
+}
+
+.Quote{
+  color: #fff;
+  float: left;
+
+  padding-left: 15%;
+  padding-top: 22%;
+
+  font-size: 35px;
+
+  font-family: 'Caveat', cursive;
+}
+
+@media (max-width: 1100px)
+{
+  .Quote{
+    color: #fff;
+    float: none;
+
+    padding-top: 5%;
+    padding-left: 0%;
+    text-align:  center;
+  
+    font-size: 40px;
+
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .Quote{
+    font-size: 30px;
+
+    margin-bottom: 30px;
+  }
+}

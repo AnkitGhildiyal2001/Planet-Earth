@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+.bod_Facts{
+    background-image: url("https://i.pinimg.com/originals/c6/df/a2/c6dfa22150790c670c988c5196f6ba0e.gif");
+    
+
+     /* background-color: aqua; */
+
+     background-attachment: fixed;
+   
+    background-size:cover;
+    min-height:100vh;
+    background-repeat: no-repeat;
+  }
+  
+  .nav_conta_Facts{
+    color: #fff;
+    /* font-weight: bold; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+  }
+
+  .nav_conta_Facts:hover{
+      color: rgb(255, 0, 191);
+  }
+
+  .SuperHead{
+      font-size: 40px;
+      font-family: 'Merienda One', cursive;
+      color: rgb(255, 136, 0);
+      font-weight: bold;
+  }
+
+  .subHead{
+    font-family: 'Niconne', cursive;
+    text-align: left;
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(251, 255, 0);
+    font-weight: bold;
+  }
+
+  .Facts_content{
+      text-align: left;
+      margin-left: 30px;
+      margin-right: 30px;
+      text-align: justify;
+      color: #fff;
+      font-family: 'Kalam', cursive;
+  }
+
+  .adjust{
+      width: 400px;
+  }
+  
+  @media (max-width:500px) and (min-width:350px)
+  {
+      .adjust{
+          width: 300px;
+      }
+  }
+
+  @media (max-width:350px) 
+  {
+      .adjust{
+          width: 200px;
+      }
+  }

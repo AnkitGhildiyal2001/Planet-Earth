@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Philosopher:wght@700&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+.Brand{
+    font-size: 175%;
+    font-style: normal ;
+    color: rgb(1, 146, 230);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+.nav_cont_pla{
+  color: rgb(236, 234, 238);
+  font-weight: bold;
+  /* font-family: 'Tangerine', cursive;  */
+  font-family: 'Arizonia', cursive;
+
+  font-size: x-large;
+}
+
+.nav_cont_pla:hover{
+  color: rgb(248, 59, 255);
+}
+
+.navbea{
+  background-color: rgb(7, 0, 0);  
+
+ position:sticky;
+ top: 0%;
+ z-index: 1;
+}
+
+#erth{
+  color: rgb(3, 177, 3);
+}
+
+.caro{
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+Carousel.Item{
+    align-self: center;
+    align-content: center;
+    align-content: center;
+    align-items: center;
+
+    width: 80%;
+}
+
+Carousel{
+    align-self: center;
+    align-content: center;
+    align-content: center;
+    align-items: center;
+
+    width: 80%;
+}
+
+ .body_beautiful_place{
+  /* background-image: url("https://cdn.wallpapersafari.com/60/70/AB9phC.jpg"); */
+  background-image: url("https://wallpaperaccess.com/full/396605.jpg");
+  background-size: 100% 100%;
+  
+  background-attachment: fixed;
+  
+  /* background-color: rgb(0, 0, 0); */
+  
+  /* background-size:cover; */
+  /* min-height:100vh; */
+  background-repeat: no-repeat;
+} 
+
+.Super{
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+
+  color: rgb(0, 225, 255);
+}
+
+.heading{
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  color: rgb(245, 72, 72);
+
+  font-size: 50px;
+}
+
+.para{
+  font-family: 'Philosopher', sans-serif;
+  font-style: oblique;
+  color: rgb(255, 255, 255);
+  margin: 15px;
+}
