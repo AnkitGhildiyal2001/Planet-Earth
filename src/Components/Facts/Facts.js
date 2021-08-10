@@ -7,7 +7,7 @@ const Facts = () => {
   return (
     <div className="bod_Facts">
 
-      <Navbar collapseOnSelect expand="lg" variant="dark">
+      <Navbar className="FactsNav" collapseOnSelect expand="lg" variant="dark">
         <Link to='/' style={{ textDecoration: 'none' }}>
           <span className="Planet">
             Planet <span id="erth">Earth&nbsp;</span>
